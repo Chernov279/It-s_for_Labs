@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт портфолио</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header__logo">визитка</h1>
+            <div class="header__menu menu">
+                <button class="menu__btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                </button>
+                <ul class="menu__list hide">
+                <li class="menu__item">
+                <a href="#info" class="menu__link">
+                О себе
+                </a>
+                </li>
+                <li class="menu__item">
+                <a href="#portfolio" class="menu__link">
+                Портфолио
+                </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info" id="info">
+            <div class="info__fullname">
+                Чернов Валентин Валерианович
+            </div>
+            <div class="info__title">
+                <p>Мне 18 лет, учусь на 1-ом курсе вуза <a href="https://mtuci.ru/" color="black">МТУСИ</a> на факультете информационных технологий по направлению программная инженерия.</p>
+                <p>В свободное время стараюсь заниматься саморазвитием и ухватываться за все то, за что только можно ухватиться.</p>
+                <p>Люблю решать головоломки, философствовать и хвастаться этим, слежу за киберспортом, когда-то играл в шахматы.</p>
+                <p>Программировать начал учиться летом и надеюсь целиком и полностью освоить эту профессию в долгосрочной перспективе.</p>
+            </div>
+
+            <p>Где меня можно найти:</p>
+            <div class="info__nickname">
+                Ссылка на мой <a href="https://t.me/xyzxyb" id="info">телеграм</a>
+            </div>
+            <div class="info__nickname">
+                Ссылка на мой <a href="https://github.com/Chernov279" id="info">github</a>
+            </div>
+        
+        <div class="portfolio" id="portfolio">
+            <button class="portfolio__btn">
+            <span>Открыть портфолио</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+            </button>
+        </div>
+        <div class="portfolio__img hide">  
+            <img src="images/Swagger.jpg" class="image">
+            <img src="images/FastAPI.jpg" class="image">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
