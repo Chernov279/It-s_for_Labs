@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    background: url(../images/space.jpeg);
     }
     
     .hide {
@@ -7,8 +7,9 @@ body {
     }
     
     .container {
-    width: 1140px;
+    width: 90%;
     margin: 0 auto;
+    height: 80px;
     }
     
     .header {
@@ -22,8 +23,9 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #0f0f0f;
-    margin-left: 90px;
+    color: #ffffff;
+    margin-left: 20px;
+;
     }
     
     .header__menu {
@@ -37,8 +39,9 @@ body {
     }
     
     .header__menu .menu__btn svg {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
+    color: white;
     }
     
     .header__menu .menu__list {
@@ -58,7 +61,7 @@ body {
     }
     
     .header__menu .menu__link {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
     color: #000;
     text-decoration: none;
@@ -74,7 +77,7 @@ body {
     color: black;
     text-decoration: none;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
     margin-bottom: 20px;
@@ -86,40 +89,63 @@ body {
     padding: 15px 20px;
     margin-top: 10px;
 
+
 }
-.info__title p a{
+.info__title a{
     font-style: italic;
     color: blue;
     text-decoration: underline;
     text-decoration-color: blue;
     cursor: pointer;
+}
+
+.info__question{
+    background-position: center;
+    background-color: #1c87d8;
+    margin: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 100px;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    font-size: 50px;
+
 }
 
 .info__fullname{
     font-size: 35px;
-    color: rgb(208, 149, 76);
+    color: rgb(175, 114, 39);
     text-transform: capitalize;
     background-color: #e5ffe7 ;
     padding: 10px 15px;
     border-radius: 25px;
-
+    font-size: 40px;
 }
 
 .info__nickname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-style: italic;
     color: blue;
     text-decoration: underline;
     text-decoration-color: blue;
-    cursor: pointer;
-    width: 203px;
-    background-color: #ffd59c;
-    border: 4px solid #eee;
+    font-size: 35px;
+    width: 45%;
+    margin: 0 25px;
+    height: 120px;
+    background-color: rgb(58 198 193);
+    border-radius: 50px;
 }
 
-.info__nickname:visited{
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.info__nickname a:visited{
     color: grey;
     text-decoration: line-through;
-    cursor: pointer;
     background-color: gainsboro;
 }
 
@@ -128,25 +154,37 @@ body {
 }
 
 a:hover{
-    color: rgb(17, 13, 13);
+    color: rgb(255, 0, 0);
 }
 
-@info {
-}
 
 .image{
-    margin-top: 10px;
-    width: 1000px; 
-}
-
-.portfilio__btn{
-    
+    margin: 10px 15px;
+    width: 600px
 }
 
 
+.portfolio__btn{
+    text-decoration-color: #ffd59c;
+    position: relative;
+    padding: 15px, 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 37px;
+    letter-spacing: 5px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
 
-@portfolio{
-    
+}
+.portfolio__btn :hover{
+    box-shadow: 0 0 10px #162c3d, 0 0 40px#2196f3,0 0 80px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
 }
     /* Прописать стили для блока info и portifolio нужно самостоятельно */
     
